@@ -1,0 +1,15 @@
+adminUser:
+  password: local:shopozor/adminUser:password
+  username: admin
+docker:
+  email: shopozor@softozor.ch
+  password: local:shopozor/docker:password
+  url: https://index.docker.io/v1/
+  username: shopozor
+enableDocker: true
+pipelineUser:
+  email: softozor-deployer@softozor.ch
+  token: local:shopozor/pipelineUser:token
+  username: softozor-deployer
+prow:
+  hmacToken: local:shopozor/prow:hmacToken

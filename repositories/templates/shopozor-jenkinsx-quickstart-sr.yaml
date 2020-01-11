@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: shopozor
+    provider: github
+    repository: jenkinsx-quickstart
+  name: shopozor-jenkinsx-quickstart
+spec:
+  description: Imported application for shopozor/jenkinsx-quickstart
+  httpCloneURL: https://github.com/shopozor/jenkinsx-quickstart.git
+  org: shopozor
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: jenkinsx-quickstart
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/shopozor/jenkinsx-quickstart.git

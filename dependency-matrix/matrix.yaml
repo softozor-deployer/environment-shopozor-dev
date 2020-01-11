@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: shopozor
+  repo: jenkinsx-quickstart
+  url: https://github.com/shopozor/jenkinsx-quickstart.git
+  version: ""
+  versionURL: ""
